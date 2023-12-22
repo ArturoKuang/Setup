@@ -1,17 +1,22 @@
-Plug 'easymotion/vim-easymotion'
-set number
-set relativenumber
-set tabstop=4 softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
-set ignorecase
-set laststatus=2
-set smartcase
-syntax on
-let mapleader = " "
-nnoremap <leader>pv :Vex<CR>
-" Gif config
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
-set ideajoin
+ Plug 'easymotion/vim-easymotion'
+ set number
+ set relativenumber
+ set tabstop=4 softtabstop=4
+ set shiftwidth=4
+ set expandtab
+ set smartindent
+ set ignorecase
+ set laststatus=2
+ set smartcase
+ syntax on
+ let mapleader = " "
+ nnoremap <leader>pv :Vex<CR>
+ " Gif config
+ map  / <Plug>(easymotion-sn)
+ omap / <Plug>(easymotion-tn)
+ set ideajoin
+ map U <C-R>
+ map <leader>r <Action>(RenameElement)
+ map <S-Space> <Action>(GotoNextError)
+ map <leader>l V<Action>(ReformatCode)
+
