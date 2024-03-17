@@ -19,4 +19,4 @@
  map <leader>r <Action>(RenameElement)
  map <S-Space> <Action>(GotoNextError)
  map <leader>l V<Action>(ReformatCode)
-
+ map <leader>r <Action>(Run)
