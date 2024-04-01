@@ -48,3 +48,8 @@ $ jenv global 11.0
 ```
 
 jenv reads the `.java-version` file for each repo automatically# Setup
+
+
+<img width="600" alt="Screenshot 2024-04-01 at 11 40 09 AM" src="https://github.com/ArturoKuang/Setup/assets/17709843/2d77737f-7b8e-4c50-b278-08f65efb9dcd">
+
+
